@@ -20,7 +20,7 @@ app.use(cors({
     origin:true,
     methods:["GET","POST","PUT","DELETE"],
     credentials:true,
-    allowedHeaders: ["Content-Type", "application/json"]
+    allowedHeaders: ["Content-Type"]
 }))
 
 // Define PORT
