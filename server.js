@@ -17,10 +17,10 @@ app.use(express.json());
 //when conntect backend to frontend 
 //cors
 app.use(cors({
-    origin:"*",
+    origin:true,
     methods:["GET","POST","PUT","DELETE"],
     credentials:true,
-    allowedHeaders: ["Content-Type", "Authorization"]
+    allowedHeaders: ["Content-Type", "application/json"]
 }))
 
 // Define PORT
